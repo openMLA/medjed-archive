@@ -4,3 +4,4 @@ manuals/*
 *.afdesign
 *.3mf
 *.stl
+**/*-backups/*

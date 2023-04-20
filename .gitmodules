@@ -1,0 +1,3 @@
+[submodule "Medjed.wiki"]
+	path = Medjed.wiki
+	url = https://github.com/openMLA/Medjed.wiki.git

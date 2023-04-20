@@ -7,7 +7,9 @@ The **Medjed** maskless lithography aligner is part of the openMLA series of pho
 
 ### Current component selection
 
-Below are some of the current components selected for the machine. They may change at any point and are not nessecarily the best for the job.  Still, you may find some of them interesting components for your own project.
+Below are some of the current components selected for the machine. They may change at any point and are not necessarily the best for the job.  Still, you may find some of them interesting components for your own project.
+
+🔗 More detailed discussion of components choices will be put in the wiki 📑.
 
 * XYZ axis: Snapmaker linear rails (not accurate enough for direct positioning)
 * UV patterning: modified DMD projection unit from the Anycubic Photon Ultra DLP printer. See [this blog post for pictures and background](https://nemoandrea.github.io/blog/Anycubic_DLP_teardown/).

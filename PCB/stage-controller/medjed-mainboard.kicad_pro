@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.3,
-          "width": 0.8
+          "drill": 2.7,
+          "height": 4.7,
+          "width": 4.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,7 +55,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "duplicate_footprints|120500000|52400000|64beb14c-e204-4f22-b851-c1821afb0ae8|3029a7af-4c0c-471f-8e7c-f62c7acbce1b",
+        "duplicate_footprints|19500000|73750000|dfdabb5c-41b4-4941-aea8-2ca7ea0adeb9|3029a7af-4c0c-471f-8e7c-f62c7acbce1b",
+        "extra_footprint|120500000|52400000|64beb14c-e204-4f22-b851-c1821afb0ae8|00000000-0000-0000-0000-000000000000",
+        "extra_footprint|135500000|73750000|3029a7af-4c0c-471f-8e7c-f62c7acbce1b|00000000-0000-0000-0000-000000000000",
+        "extra_footprint|18900000|41400000|61579cc8-b031-491c-a36a-8d1c6c854072|00000000-0000-0000-0000-000000000000",
+        "extra_footprint|19500000|73750000|dfdabb5c-41b4-4941-aea8-2ca7ea0adeb9|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|120500000|52400000|64beb14c-e204-4f22-b851-c1821afb0ae8|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|135500000|73750000|3029a7af-4c0c-471f-8e7c-f62c7acbce1b|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|19500000|73750000|dfdabb5c-41b4-4941-aea8-2ca7ea0adeb9|00000000-0000-0000-0000-000000000000",
+        "unconnected_items|103530000|73637500|be049669-299a-43a5-8c2b-b577da28705c|80db4583-90f0-403f-9e44-c5a249f5ad67",
+        "unconnected_items|73050000|58397500|80db4583-90f0-403f-9e44-c5a249f5ad67|9e76872e-294e-400c-8173-3b84c64feb2f",
+        "unconnected_items|92100000|61447500|433ecdf7-95f1-4e52-a6d5-48ca2bcb196f|fbcf402c-122a-4873-ada6-27569a4f2ea8"
+      ],
       "meta": {
         "version": 2
       },
@@ -390,7 +403,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -494,6 +507,18 @@
     [
       "27a9022c-c259-44d6-8dfc-ca2dec4f8d18",
       ""
+    ],
+    [
+      "2a36f05f-9da4-49fb-8f18-912ea7423d53",
+      "Axis X"
+    ],
+    [
+      "692d280f-89d0-4cf5-b53b-eff98892f158",
+      "Axis Y"
+    ],
+    [
+      "1a830790-2732-4c93-9f6a-ded8ba75aa77",
+      "Axis Z"
     ]
   ],
   "text_variables": {}

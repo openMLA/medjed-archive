@@ -5,6 +5,8 @@ The **Medjed** maskless lithography aligner is part of the openMLA series of pho
 >  **🏗️ Construction in progress**
 > A lot is still being worked on for this system. Hardware is being tested and performance will need to be evaluated before people will be able to build their own system. 
 
+![](media/medjed_main_assembly.png)
+
 ### Current component selection
 
 Below are some of the current components selected for the machine. They may change at any point and are not necessarily the best for the job.  Still, you may find some of them interesting components for your own project.
@@ -13,11 +15,13 @@ Below are some of the current components selected for the machine. They may chan
 
 * XYZ axis: Snapmaker linear rails (not accurate enough for direct positioning)
 * UV patterning: modified DMD projection unit from the Anycubic Photon Ultra DLP printer. See [this blog post for pictures and background](https://nemoandrea.github.io/blog/Anycubic_DLP_teardown/).
-* Main optic: [Edmund optics 10X DIN Plan 0.25NA](https://www.edmundoptics.com/p/10x-din-plan-commercial-grade-objective/5386/)
+* Main optic: 10X Plan 0.25NA objective; exact vendor to be determined
 * Encoders: [RLS RLC2IC magnetic encoder](https://www.rls.si/eng/rlc2ic-miniature-linear-and-rotary-pcb-level-incremental-magnetic-encoder) - 244nm spec, 2MHz
+* Motion controller IC: [TMC4361A](https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC4361_Datasheet_Rev3.10.pdf)
 * Stage vacuum: Tetra APS pump (diaphragm type, reversed)
 * Microcontroller: [Teensy 4.1](https://www.pjrc.com/store/teensy41.html)
 * SBC:  [Odroid N2+](https://www.hardkernel.com/shop/odroid-n2-with-4gbyte-ram-2/)
+* Cameras: [Daheng imaging MER2-630](https://www.get-cameras.com/USB3.0-Camera-6.3MP-Color-Sony-IMX178-MER2-630-60U3C)
 
 ### Design Tools
 

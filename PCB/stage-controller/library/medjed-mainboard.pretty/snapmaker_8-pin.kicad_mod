@@ -62,7 +62,7 @@
     (tstamp 51f1c2cd-6beb-4cb5-bc3e-b1c2957fbca7)
   )
   (fp_text user "STEP" (at 1.213161 -0.267287 unlocked) (layer "F.SilkS")
-      (effects (font (size 0.7 0.7)) (justify left bottom))
+      (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp 56246fe7-3208-4b6e-9ebd-c9f74ed47513)
   )
   (fp_text user "GND" (at -6.108902 1.097671 unlocked) (layer "F.SilkS")
@@ -142,5 +142,10 @@
       fb2a68cd-66a9-42f7-8825-7ba272857c1e
       fec64a67-4be7-4a57-8c6b-0fd4f5a6f4be
     )
+  )
+  (model "${KIPRJMOD}/library/3D_models/snapmaker_8pin.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )

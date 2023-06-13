@@ -15,6 +15,8 @@ The MEDJED system targets a 5um pixel size in its current design. The total proj
 
 You will the majority of the documentation on [the project wiki](https://github.com/openMLA/Medjed/wiki).
 
+![](media/medjed_main_assembly-alt.png)
+
 ### 🙋‍♂️Contributions
 
 Currently the project development is in volatile waters; a lot is still changing and being tested. If you find the project very interesting and think you have some expertise in the relevant areas (e.g. optics, mechanics, machine safety, PCB design) feel free to reach out so we can see if we can divide up some tasks or if you can share some insight/critique into some of the current design layout!

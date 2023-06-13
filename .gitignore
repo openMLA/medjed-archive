@@ -6,6 +6,10 @@ manuals/*
 *.stl
 **/*-backups/*
 **/datasheets/*
+media/freecad-images/*
+**/temp/*
+*.dxf
+*.step
 
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/

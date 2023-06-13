@@ -1,6 +1,6 @@
 ## Medjed Enclosure
 
-![](../../media/freecad-images/enclosure_main.png)
+![](../../media/medjed-enclosure-preview.png)
 
 
 
@@ -15,6 +15,8 @@ There are 5 panels total
 * Side panel 1
 * Side panel 2 (identical to panel 1)
 * Top panel
+
+![](schematic.svg)
 
 ###  Parts list
 
@@ -33,7 +35,7 @@ I suggest you have the enclosure cut out of orange acrylic. Ideally, choose an a
 Something like 
 
 * Plexiglas `ORANGE 2C04`
-* Green Cast 
+* Green Cast `orange`
 
 *Note that neither of the above have published transmission spectra (that I could find), and may still transmit a significant amount of UV light.*
 

@@ -29,15 +29,26 @@ Below are some of the current components selected for the machine. They may chan
 
 🔗 More detailed discussion of components choices will be put in the wiki 📑.
 
+Some highlighted components below
+
 * XYZ axis: Snapmaker linear rails (not accurate enough for direct positioning)
 * UV patterning: modified DMD projection unit from the Anycubic Photon Ultra DLP printer. See [this blog post for pictures and background](https://nemoandrea.github.io/blog/Anycubic_DLP_teardown/).
 * Main optic: [Olympus Plan N 10X 0.25NA](https://www.edmundoptics.com/f/olympus-plan-achromatic-objectives/14535/).  Alternatively, [a cheaper version with the same optical design is produced in China](https://www.astroshop.eu/for-microscopes/evident-olympus-plcn10x-0-25-plan-achromat-objective/p,49913) by Olympus (part:N4239000) which should work just as well. 
 * Encoders: [RLS RLC2IC magnetic encoder](https://www.rls.si/eng/rlc2ic-miniature-linear-and-rotary-pcb-level-incremental-magnetic-encoder) - 244nm spec, 2MHz
 * Motion controller IC: [TMC4361A](https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC4361_Datasheet_Rev3.10.pdf)
-* Stage vacuum: Tetra APS pump (diaphragm type, reversed)
 * Microcontroller: [Teensy 4.1](https://www.pjrc.com/store/teensy41.html)
-* SBC:  [Odroid N2+](https://www.hardkernel.com/shop/odroid-n2-with-4gbyte-ram-2/)
-* Cameras: [Daheng imaging MER2-630](https://www.get-cameras.com/USB3.0-Camera-6.3MP-Color-Sony-IMX178-MER2-630-60U3C) (one camera in mono, one in RGB)
+* Cameras: Raspberry Pi global shutter and HQ camera
+
+### BOM
+
+Consult the [BOM.csv](BOM.csv) for a  complete-ish list of components (note that it is 🏗). The BOM has optional elements.  This allows construction of cheaper versions of MEDJED if certain features are not needed. Some clarification on what the optional modules correspond to:
+
+* WLM: White Light Module: a white light reflection microscope module that allows for inspection of sample after fabrication (image stitching and such)
+* BSA: Back Side Alignment: basic camera and optics that allows for backside alignment of substrates
+* EXTRA: Catch-all for nice items to have on the system (extra safety switches or extra visual indicators etc), but are not needed for any new functionality.
+* ALT: components that can serve as backup for another, preferred, components in the BOM. 
+
+The main BOM in the repository home is aggregated from subassembly BOM's. So you want to look at the components for a subassembly, simply go to the assembly and open the BOM there. [A simple utility function](utils/bom-merger.py) combines the BOMs.
 
 ### 🛠 Design Tools
 

@@ -1,0 +1,9 @@
+﻿Name,Manufacturer,Manufacturer Number,Supplier,Supplier Number,Quantity,Price Total,Optional,Comments
+Snapmaker linear axis 2.0 A150 for X and Y ,Snapmaker,,123-3D,DAR00374,2,240,,For now only the 250mm version is available; design is built around the 168mm variant
+RLS encoder RLC2IC,,,RLS,RLC2ICA13BB13A00,2,163.9,,
+RLS magnetic tape 210mm with ref mark,,,RLS,MS05DM210AM027,2,70.76,,
+M4 Inbus bolt 10mm,,,Generic,XX001,12,3,,
+M5 heat inserts,Ruthex,,3DJAKE,RUT-GE-M5x95-001,1,10,,For vacuum fitting; pack of 50; ask a friend if they have something like it to save some money
+M4 heat inserts,Ruthex,,3DJAKE,RUT-GE-M4x81-001,4,9.5,,For attaching stage
+M3 heat inserts,,,3DJAKE,ISP-GWEM3,4,5.69,,50 piece set; for vacuum region selection
+Tetra APS150 pump,Tetra,,Amazon.de,,1,17,,Stage vacuum pump when diaphragm is reversed; point for future improvement

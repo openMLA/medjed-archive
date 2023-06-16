@@ -1,0 +1,21 @@
+﻿Name,Manufacturer,Manufacturer Number,Supplier,Supplier Number,Quantity,Price Total,Optional,Comments
+Photon Ultra,Anycubic,4.27E+13,3dprima,27344,1,330,,To salvage DMD unit from
+Optical cage rods 6mm,,,Thorlabs,ER12 ,4,80,,
+30mm cage plate Metric,,,Thorlabs,CP33/M,2,42,,
+Olympus 10X PlanC N,Olympus/Evident,,Astroshop.be,49913,1,196,,Alternatively you can get the Japan-made version for ~400; optical design should be identical
+Raspberry Pi global shutter camera,Raspberry Pi,,Kiwi Electronics,KW-3146,1,60,,C/CS mount is preferred
+Raspberry Pi high quality camera,Raspberry Pi,,Kiwi Electronics,KW-2906,1,60,,C/CS mount is preferred
+"Enconomy Beamsplitter 1""",,,Thorlabs,EBS1,1,41,,
+"Enconomy Beamsplitter 1""",,,Thorlabs,EBS1,1,41,WLM,For white light module
+"Cold mirror 1""",,,Thorlabs,FM04,1,51.9,,
+"Tube lens DMD 1"" 80mm",,,Thorlabs,AC254-080-A,1,96.07,,
+"Tube lens WLM 1"" 75mm",,,Thorlabs,AC254-075-A,1,96.07,WLM,For white light module
+"Tube lens MARKER/AUTOFOCUS 1"" 60mm",,,Thorlabs,AC254-060-A,1,96.07,,
+"Biconvex lens MARKER/AUTOFOCUS illumination 1""",,,Thorlabs,LB1757,1,63.3,,Placeholder
+"Biconvex lens WLM illumination 1""",,,Thorlabs,LB1757,1,63.3,WLM,Placeholder. For white light module
+"Silver mirror 1""",,,Thorlabs,ME1-P01,1,36.95,,
+"Silver mirror WLM 1"" ",,,Thorlabs,ME1-P01,1,36.95,WLM,For white light module
+LED illumination board MARKER/AUTOFOCUS,,,tbd,tbd,1,40,,Placeholder
+LED illumination board WLM,,,tbd,tbd,1,40,WLM,Placeholder. For white light module
+Light tunnel MARKER/AUTOFOCUS,,,tbd,tbd,1,18,,Placeholder
+Light tunnel WLM,,,tbd,tbd,1,18,WLM,Placeholder. For white light module

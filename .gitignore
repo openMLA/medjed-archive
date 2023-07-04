@@ -8,7 +8,6 @@ manuals/*
 **/datasheets/*
 media/freecad-images/*
 **/temp/*
-*.dxf
 *.step
 
 # For PCBs designed using KiCad: https://www.kicad.org/

@@ -30,3 +30,7 @@ Secured with m4 grub screws like other Thorlabs elements.
 
 ### Inline tip-tilt for 1-inch optics
 
+Tip tilt actuator for 30mm cage system with tip tilt adjustment (M3 setscrew). Has a base model that is to be modified for each lens element in the design (tune to lens curvature).
+
+![](previews/cage_inline_tip-tilt.PNG)
+

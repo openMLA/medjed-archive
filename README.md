@@ -5,7 +5,7 @@ The **Medjed** maskless lithography aligner is part of the openMLA series of pho
 >  **🏗️ Construction in progress**
 > A lot is still being worked on for this system. Hardware is being tested and performance will need to be evaluated before people will be able to build their own system. 
 
-![](media/medjed_main_assembly.png)
+![](media/medjed_main_assembly.jpg)
 
 ### Overview
 

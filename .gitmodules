@@ -4,3 +4,6 @@
 [submodule "assembly"]
 	path = assembly
 	url = https://github.com/openMLA/medjed-assembly.git
+[submodule "pcb"]
+	path = pcb
+	url = https://github.com/openMLA/medjed-pcb.git

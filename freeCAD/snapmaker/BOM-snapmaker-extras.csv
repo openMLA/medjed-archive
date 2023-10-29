@@ -1,5 +1,0 @@
-﻿Name,Manufacturer,Manufacturer Number,Supplier,Supplier Number,Quantity,Price Total,Optional,Comments
-Snapmaker power supply,Snapmaker,,3D Jake,SM-B.1.B.A.0002-01,1,69,,Price seems to fluctuate; see if you can pick it up for <90 otherwise pick up the internal supply directly (see other entry in BOM)
-Barebones power supply,Meanwell,RSP-320-24 24V,Mouser,709-RSP320-24,1,76.77,ALT,Replacement for nicely enclosed snapmaker power supply; less powerful unit would probably work just as well; space for future optimisation
-Snapmaker axis splitter (converter),Snapmaker,,3D Jake,SM-B.1.H.A.0001-01,2,25.98,,Splits step/dir and can bus between two axes (for coarse Z axis)
-M4 Inbus bolt 10mm,,,Generic,XX001,28,7,,for brackets
